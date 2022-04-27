@@ -77,8 +77,7 @@ body {
     transform: translateY(-50%);
 }
 
-.bubble:after
-{
+.timeline-cards .card:nth-child(odd).bubble::after {
 content: '';
 position: absolute;
 border-style: solid;
